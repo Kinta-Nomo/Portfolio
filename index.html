@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <title>Portfolio &mdash; Website Template by Colorlib</title>
+    <title>Kenta Nomoto</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -24,6 +24,53 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            .playButton:hover {
+                border: 2px solid rgb(64, 42, 114)
+            }
+
+            div.playLink {
+                width:25%;
+                background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 25px;
+                text-align: center;
+            }
+            div.playcontainer {
+                text-align: center;
+                padding: 10px 20px;
+                height:20%;
+            }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .fa {
+                padding-bottom:10px;
+                font-size: 50px;
+                width: 10px;
+                text-align: center;
+                text-decoration: none;
+                /* padding-left: 50px; */
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+                        
+            .fa-github {
+                color: grey;
+            }   
+            .fa-linkedin {
+                color: grey;
+            }
+            .fa-stack-overflow {
+                color: grey;
+            }
+    </style>
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -62,7 +109,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#home-section" class="nav-link ">Home</a></li>
                 <li><a href="#about-section" class="nav-link">About Me</a></li>
                 <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                 <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
@@ -88,10 +135,16 @@
           
           <div class="col-md-8 mt-lg-5 text-center">
             <h1 class="text-uppercase" data-aos="fade-up">Kenta Nomoto 野本健太</h1>
-            <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Self Learning Homeschooling Programmer</p>
+            <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">My Journey In Mathematics And Home Schooling</p>
             <!-- <div data-aos="fade-up" data-aos-delay="100">
               <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Contact Me</a>
             </div> -->
+              <div style="  margin: auto; width: 50%;  padding: 10px;">
+                <!-- <h5 style="color:white">Follow Me</h3> -->
+                <a href="https://github.com/Kinta-Nomo" class="pl-0 pr-3"><span class="fa fa-github mr-5" style="color: white;"></span></a>
+                <a href="https://www.linkedin.com/in/kenta-nomoto-a39099172/" class="pl-3 pr-3"><span class="fa fa-linkedin mr-5" style="color: #acbce6;"></span></a>
+                <a href="https://stackoverflow.com/users/7624179/kenta-nomoto" class="pl-3 pr-3"><span class="fa fa-stack-overflow mr-5" style="color: #f5b351;"></span></a>
+              </div>
           </div>
             
         </div>
@@ -113,7 +166,7 @@
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3 class="h3 mb-4 text-black">About Me</h3>
-              <p class="h3 mb-4 text-black">I am a high school student in Malaysia, currently studying in a coding home school "Kidocode".</p>
+              <p class="h3 mb-4 text-black">I'm a Japanese currently living and studying in Malaysia. As a homeschooler, I work from the offices of Kidocode, an organization specializing in high technology education.</p>
               
             </div>
             
@@ -142,7 +195,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
             <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Things I've Done</h2>
-            <p class="h3 mb-4 text-black">I have done many different things. Mathematics are one of my favorites, but i also do coding, philosophy, physics, music, etc.</p>
+            <p class="h3 mb-4 text-black">I enjoy studying different streams of mathematics and science. However, mathematic is one of my favorites. I also study programming, philosophy, physics, and music. </p>
           </div>
         </div>
         
@@ -156,7 +209,7 @@
               <img src="images/riemann.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="custom-direction">
-              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+              <!-- <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a> -->
             </div>
 
           </div>
@@ -165,29 +218,29 @@
             <div class="owl-carousel slide-one-item-alt-text">
               <div>
                 <h2 class="section-title mb-3">Simulating mathematical concepts</h2>
-                <p class="h3 mb-4 text-black">Mathematics and programming goes along very well. And simulating a mathematical concept on computers are very fun.</p>
-                <p class="h3 mb-4 text-black">I do things like making fractals, projecting object from higher dimensions, .</p>
+                <p class="h3 mb-4 text-black">Mathematics and programming are mutually compatible. As too simulating mathematical concepts using computer based visualizations. </p>
+                <p class="h3 mb-4 text-black">Fractal geometry and chaos theory are areas of mathematics that I specialize in.</p>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
                 <h2 class="section-title mb-3">Game development</h2>
-                <p class="h3 mb-4 text-black">I create games using Unity and javascript.</p>
-                <p class="h3 mb-4 text-black">I have made a number of games so far. I love to create something that twists your head around when you play it!</p>
+                <p class="h3 mb-4 text-black">Using Unity and javascript I create games.</p>
+                <p class="h3 mb-4 text-black">Having written a series of games I like to focus on creating themes that contain unusual twists during gameplay. </p>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
                 <h2 class="section-title mb-3">Websites</h2>
-                <p class="h3 mb-4 text-black">I am learing how to make a website</p>
-                <p class="h3 mb-4 text-black">I am learning things like html, css, bootstrap, angular, jquery, different libralies, and many more!</p>
+                <p class="h3 mb-4 text-black">Making websites has been one of my recent activity.</p>
+                <p class="h3 mb-4 text-black">In doing so I am learning html, css, bootstrap, angular, jquery, different libraries, and many more!</p>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
                 <h2  class="section-title mb-3">Other Fields</h2>
-                <p class="h3 mb-4 text-black">Not only coding, I also enjoy other fields.</p>
-                <p class="h3 mb-4 text-black">Many science surprises me with how amazing this world is. I often spend my time trying to rap my head around how this world works. Not only science, I enjoy music, art, and most importatly, having fun!</p>
+                <p class="h3 mb-4 text-black">Apart from coding I love to learn about other fields of science.</p>
+                <p class="h3 mb-4 text-black">Science continuously surprises me as I learn more about the universe we live in.</p>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
@@ -197,6 +250,81 @@
         </div>
       </div>
     </section>
+
+    <section class="site-section">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-7 text-center">
+          <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Interactive Fractals</h2>
+          <h5 data-aos="fade-up" data-aos-delay="">You can click on the image to jump to the interactive page!</h5>
+          <!-- <p class="h3 mb-4 text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus reprehenderit repellat fugiat vel quis, at minus, ullam laborum quidem, rerum a perspiciatis rem. Eveniet quis molestiae et itaque deserunt odit.</p> -->
+        </div>
+      </div>
+
+      <div style="margin-left:5%;display:inline-block;">
+        <div class="playLink" style="float:left;">
+          <div class="playButton" onclick= "document.location = 'spiral.html'"">
+              <div style="background-color: rgb(99, 123, 230);
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              font-size: 16px; height: 18%;">
+                  <p style="font-size: 20px;">TROCHOIDILE</p> <p>click to interact</p>
+              </div>
+              <img src="images/trochoidile1.PNG" alt="5 Terre" style="width:100%">
+          </div>
+          <div class="container">
+              <p style="color: black !important; padding-top: 5%  ;">A recursive spiralogram. You can adjust the parameters to try
+                  out different shapes and patterns. You can choose to display
+                  the path it took, or to display the spiralogram itself.
+              </p>
+          </div>
+          <a href="https://github.com/Kinta-Nomo/interactive-fractals/blob/master/spiral.js" class="fa fa-github"></a>
+      </div>
+      <div class="playLink" style="float:left;margin-left:10%;">
+        <div class="playButton" onclick= "document.location = 'mandelbrot.html'"">
+            <div style="background-color: rgb(99, 123, 230); /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px; height: 18%;">
+                <p style="font-size: 18px;">MANDELBROT SET RELATIVES</p> <p>click to interact</p>
+            </div>
+            <img src="images/mandelbrot.PNG" alt="5 Terre" style="width:100%">
+        </div>
+        <div class="container">
+            <p style="color: black !important; padding-top: 5%;">The infamous fractal, the mandelbrot set. You can interact with three 
+                different types: mandelbrot set, julia set, and the burning ship fractal.
+            </p>
+        </div>
+        <a href="https://github.com/Kinta-Nomo/interactive-fractals/blob/master/spiral.js" class="fa fa-github"></a>
+    </div>
+        <!-- <div style="width:100%;"> -->
+          <div class="playLink" style="float:left;margin-left:10%;margin-right:5%;">
+            <div class="playButton" onclick= "document.location = '4d.html'"">
+                  <div style="background-color: rgb(99, 123, 230); /* Green */
+                  border: none;
+                  color: white;
+                  padding: 15px 32px;
+                  text-align: center;
+                  font-size: 16px; height: 18%;">
+                      <p style="font-size: 20px;">4D CANTOR SET</p> <p>click to interact</p>
+                  </div>
+                  <img src="images/4d_cantor.PNG" alt="5 Terre" style="width:100%">
+              </div>
+              <div class="container">
+                  <p style="color: black !important; padding-top: 5%;">The infamous fractal, the mandelbrot set. You can interact with three 
+                      different types: mandelbrot set, julia set, and the burning ship fractal.
+                  </p>
+              </div>
+              <a href="https://github.com/Kinta-Nomo/interactive-fractals/blob/master/spiral.js" class="fa fa-github"></a>
+          </div>
+        <!-- </div> -->
+    </div>
+  </section>
+
+    <div></div>
 
     <section class="site-section" id="portfolio-section">
       
@@ -218,6 +346,9 @@
           </div>
         </div>  
          -->
+
+         
+
         <div id="posts" class="row no-gutter">
           <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/tree.PNG" class="item-wrap fancybox" data-fancybox="gallery2">
@@ -373,7 +504,7 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4">About Me</h2>
-                <p>I am a high school student in Malaysia, currently studying in a coding home school "Kidocode"</p>
+                <p>I'm a Japanese currently living and studying in Malaysia. As a homeschooler, I work from the offices of Kidocode, an organization specializing in high technology education.</p>
               </div>
               <!-- <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
@@ -384,13 +515,15 @@
                   <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
                 </ul>
               </div> -->
-              <div class="col-md-3">
+              <!-- <div> -->
                 <h2 class="footer-heading mb-4">Follow Me</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="https://www.linkedin.com/in/kenta-banana-a39099172/" target="_blank" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-              </div>
+                <div style=" padding: 60px;">
+                  <!-- <h5 style="color:white">Follow Me</h3> -->
+                  <a href="https://github.com/Kinta-Nomo" class="pl-0 pr-3"><span class="fa fa-github mr-5"></span></a>
+                  <a href="https://www.linkedin.com/in/kenta-nomoto-a39099172/" class="pl-3 pr-3"><span class="fa fa-linkedin mr-5"></span></a>
+                  <a href="https://stackoverflow.com/users/7624179/kenta-nomoto" class="pl-3 pr-3"><span class="fa fa-stack-overflow mr-5"></span></a>
+                </div>
+              <!-- </div> -->
             </div>
           </div>
           <!-- <div class="col-md-3">
@@ -410,7 +543,7 @@
             <div class="border-top pt-5">
               <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
         
@@ -418,7 +551,6 @@
           </div>
           
         </div>
-      </div>
     </footer>
 
   </div> <!-- .site-wrap -->
